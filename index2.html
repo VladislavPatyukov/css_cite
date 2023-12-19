@@ -13,83 +13,35 @@
 
 <container>
 
-    <header id="beginning">
+    <header>
         ВЛАДИСЛАВ ПАТЮКОВ
     </header>
-    <div><navigation id="nav-menu">
-
+    <navigation>
         НАВИГАЦИЯ ПО СТРАНИЦЕ
-        <ul class="glow">
-            <li><a href="#beginning" target="_self">НАЧАЛО</a></li>
-            <li><a href="css/study.html" class="active" target="_self" style="">ОБРАЗОВАНИЕ</a></li>
-            <li><a href="#contactdata" target="_self" >КОНТАКТНЫЕ ДАННЫЕ</a></li>
-            <li><a href="index2.1.html" target="_self" class="active">СВЯЗАТЬСЯ</a></li>
-            <li><a href="#ftr"><img src="CV_Patyukov_Cite/для удаления фона-PhotoRoom.png-PhotoRoom.png" width="200" alt="ИЗОБРАЖЕНИЕ" title="фотография"></a></li>
+        <ul>
+            <li><a href="css/study.html" class="active" target="">ОБРАЗОВАНИЕ</a></li>
+            <li><a href="#">ОПЫТ РАБОТЫ</a></li>
+            <li><a href="#">СВЯЗАТЬСЯ</a></li>
         </ul>
+    </navigation>
 
-    </navigation></div>
-    <script type="text/javascript">shineLinks('nav-menu');</script>
-<script type="text/javascript">
-    function shineLinks(id) {
-        try {
-            var el=document.getElementById(id).getElementsByTagName('a');
-            var url=document.location.href;
-            for(var i=0;i<el.length; i++){
-                if (url==el[i].href){
-                    el[i].className += ' act';
-                };
-            };
-        }catch(e){}
-    };
-</script>
     <mainContent>
         <thead id="general">ОСНОВНАЯ ИНФОРМАЦИЯ</thead>
         <table align="center" cellspacing="5" cellpadding="20" border="8" style="margin-right: 675px; ">
 
-<a href="#beginning" target="_self" style="font-size: 1.5rem; font-family: Franklin Gothic Medium;">К началу</a><br>
- <section id="contactdata">
-        <hr>
-        <h3 style="font-size: 1.5rem; font-family: Franklin Gothic Medium;">Пожалуйста, оставьте свои контактные данные</h3>
-        <form action="https://www.google.com/" target="_blank">
-            <fieldset>
-                <label style="font-size: 1rem; font-family: Franklin Gothic Medium;" for="fname">Имя:</label><br>
-                <input type="text" id="fname" name="fname" value="Иван" style="color: red"><br>
-                <label style="font-size: 1rem; font-family: Franklin Gothic Medium;" for="lname">Фамилия:</label><br>
-                <input type="text" id="lname" name="surname" value="Иванов" style="color: red"><br>
-                <label style="font-size: 1rem; font-family: Franklin Gothic Medium;" for="email">Email:</label><br>
-                <input type="text" id="email" name="email" value="aaaaa@ya.ru" style="color: red"><br>
-                <label style="font-size: 1rem; font-family: Franklin Gothic Medium;" for="tel">Номер телефона:</label><br>
-                <input type="text" id="tel" name="tel" value="89059999999" style="color: red"><br>
-                <label style="font-size: 1rem; font-family: Franklin Gothic Medium;" for="userPassword">Пароль:</label><br>
-                <input id="userPassword" type="password" value="1111" style="color: red"/><br>
-                <input type="hidden" name="timeStampID" id='timeStamp' style="color: red" />
-                <label for="age">Возраст</label>
-                <input type="number" id="num" style="color: white" value="1"/>
-                <input id="date" name="date" style="color: red"><br>
-                <script type="text/javascript" style="color: red">
-                document.getElementById('date').value = Date();
-                </script>
-                <br> <input type="submit" value="Submit" style="color: red">
-            </fieldset>
-        </form>
-
-    </section>
-
-<a href="#beginning" target="_self" style="font-size: 1.5rem; font-family: Franklin Gothic Medium;">К началу</a><br>
-<a href="https://proprikol.ru/wp-content/uploads/2020/04/krasivye-kartinki-vysokogo-razresheniya-3.jpg"><img src="https://proprikol.ru/wp-content/uploads/2020/04/krasivye-kartinki-vysokogo-razresheniya-3.jpg" width="90"></a>
-
 
     <tbody border="5">
-
+        <tr>
+            <td target="_blank" align="center" style="font-size: 1.5rem; font-family: Franklin Gothic Medium;"><a href="'Образование'.html">Образование</a></td>
+            <td target="_self" align="center" style="font-size: 1.5rem; font-family: Franklin Gothic Medium;"><a href="Skills.html">Skills</a></td>
+        </tr>
         
     </tbody>
     </table>
     </mainContent>
-    <footer id="ftr">
+    <footer>
         footer
     </footer>
 </container>
-
 </body>
-
 </html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Offer</title>
+</head>
+<body>
+<navigation id="nav-menu">
+
+        НАВИГАЦИЯ ПО СТРАНИЦЕ
+        <ul class="glow">
+            <li><a href="#beginning" target="_self">НАЧАЛО</a></li>
+            <li><a href="css/study.html" class="active" target="_self" style="">ОБРАЗОВАНИЕ</a></li>
+            <li><a href="#contactdata" target="_self" >КОНТАКТНЫЕ ДАННЫЕ</a></li>
+            <li><a href="index2.1.html" target="_self" class="active">СВЯЗАТЬСЯ</a></li>
+            <li><a href="#ftr"><img src="CV_Patyukov_Cite/для удаления фона-PhotoRoom.png-PhotoRoom.png" width="200" title="фотография"></a></li>
+        </ul>
+
+    </navigation>
+<section id="offer">
+    <h3 style="font-size: 2rem; font-family: Franklin Gothic Medium;">Связаться</h3>
+        <form action="https://www.bing.com/" target="_blank">
+            <fieldset>
+                <legend style="font-size: 1.5rem; font-family: Franklin Gothic Medium;">Ваше предложение</legend>
+            <label style="font-size: 1rem; font-family: Franklin Gothic Medium;" for="Name">Наименование организации:</label><br>
+            <input type="text" id="fname" name="fname" value="НИУ ВШЭ" style="color: red"><br><br>
+            <label style="font-size: 1rem; font-family: Franklin Gothic Medium;" for="Task">Краткое описание предложения:</label><br>
+            <textarea for="Task" name="task" style="width:600px; height:200px;"></textarea><br><br>
+            <label style="font-size: 1rem; font-family: Franklin Gothic Medium;" for="topic">Тема обращения:</label>
+            <select id="topic" name="topic">
+                <option value="Internship">Приглашение на стажировку</option>
+                <option value="JobInvitation">Приглашение на работу</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </section><br>
+<form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+    <fieldset>
+    <p>Найти:<input type="Text"  name="q" value="найти"></p>
+    <p>Имя: <input type="Text" name="last_name" size=20  value="Иван"></p>
+    <p>вопрос: <input type="text" name="age" size=20 value="вопрос"></p>
+    <p>Тема:
+        <input type="Radio" name="place" value="A">1
+        <input type="Radio" name="place" value="Z" checked >2
+        <input type="Radio" name="place" value="Y" checked >3
+        <input type="Radio" name="place" value="O" checked >Другое
+    </p>
+
+    <p> Отзыв:
+        <br>
+        <TEXTAREA cols=80 name="textarea" rows=4>Комментарий</TEXTAREA>
+    </p>
+
+    <p>
+        <input type="Reset"  name="Reset"  value="Обновить">
+        <input type="Submit" name="submit"  value="Отправить">
+    </p>
+    </fieldset>
+
+</form>
+</body>
+</html>
